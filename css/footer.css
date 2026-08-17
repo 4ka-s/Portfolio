@@ -1,0 +1,25 @@
+/* css/footer.css */
+
+/* Overrides the middle-bg section to stack content vertically */
+.middle-bg {
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  align-items: stretch !important;
+}
+
+/* Styles and positions the bottom header */
+.bottom-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px;
+  color: #888888;
+  font-size: 0.85rem;
+  font-family: 'Inter', sans-serif;
+  margin-top: auto;
+}
+
+.bottom-header p {
+  margin: 0;
+}

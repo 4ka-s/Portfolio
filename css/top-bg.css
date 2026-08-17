@@ -1,0 +1,54 @@
+.top-bg {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  background-image: url('../assets/top-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #020236;
+  color: #fff;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 15vh;
+  justify-content: center;
+  font-size: 2rem;
+  z-index: 1;
+}
+
+.core-strength-text{
+  text-align: center;
+  padding-top: 5vh;
+  font-size: 2rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 200;  /* or 200 */
+  text-transform: uppercase;  /* optional, for all-caps look */
+  letter-spacing: 0.1em;      /* optional, adds breathing room */
+}
+
+.scroll-text {
+  position: absolute;
+  top: 40vh;
+  left: 10%;
+  transform: translateX(-50%);
+}
+
+.top-left-text {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.top-left-text .name {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.top-left-text .title {
+  color: #ccc;        /* subtle gray */
+  opacity: 0.7;        /* the "some opacity" */
+  font-size: 1rem;
+  margin-top: 2px;
+  
+}

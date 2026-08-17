@@ -1,0 +1,19 @@
+.bottom-gradient {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px; 
+  background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+  z-index: 999; 
+  pointer-events: none; 
+  
+  /* Smoothly transitions opacity changes over 0.4 seconds */
+  opacity: 1;
+  transition: opacity 0.4s ease;
+}
+
+/* Added when user reaches the bottom */
+.bottom-gradient.hidden {
+  opacity: 0;
+}
