@@ -33,8 +33,11 @@ body {
 
 html {
     scroll-behavior: smooth;
+<<<<<<< HEAD
 }
 
 main {
     animation: fadeIn 0.6s ease-in;
+=======
+>>>>>>> 0235c89eced47659a84aab07ce435f9223ac15f2
 }
